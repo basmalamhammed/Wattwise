@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+outputs/
+data/hourly_cache.csv
+data/household_power_consumption.txt
