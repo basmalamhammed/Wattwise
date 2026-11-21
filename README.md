@@ -260,3 +260,15 @@ Add a `LICENSE` file to specify the terms under which this project may be used, 
 ---
 
 **WattWise — Turning household electricity readings into interpretable consumption patterns and forecasts.**
+
+### Layout smoke tests
+
+From the repository root, run:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+These checks cover the package layout, bundled sample location, and labelled
+synthetic fallback. Running `python train.py` without the UCI data is a synthetic
+smoke test only, not a reproduction of any real-dataset results.
